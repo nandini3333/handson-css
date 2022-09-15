@@ -4,7 +4,7 @@
      padding: 0%; 
 }
 body{
-    background-image: url("https://c.wallhere.com/photos/32/43/1920x1080_px_Simple_Background-1207160.jpg!d");
+    background-image: url(https://c.wallhere.com/photos/32/43/1920x1080_px_Simple_Background-1207160.jpg!d);
     background-size:cover;
     border: 3px solid chartreuse;
     height: 1800px;;
