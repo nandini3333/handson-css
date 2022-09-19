@@ -1,8 +1,6 @@
 body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNjgjzK6pPUdRn_4hW3izDKG6L78YjwQcwAq3yY1iGFaCfFvVfD03PWM3xjoe5bfVNAGY&usqp=CAU);
     background-size:cover;
-    /* border: 6px solid green;
-    margin-top:150px; */
 }
 
 .box1{
@@ -60,7 +58,6 @@ body{
     position:absolute;
     right:55px;
     top:183px;
-
     float: right;
 }
 
