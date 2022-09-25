@@ -1,0 +1,156 @@
+.offer{
+   height:25px;
+   width:100%;
+   font-weight: bold;
+   border:1px solid white;
+   text-align: center;
+   background-image: linear-gradient(to right,red , green , yellow);
+   text-decoration: underline;
+}
+
+.home{
+   height:60px;
+   width:400px;
+   text-align:center;
+   background-color: cornflowerblue;
+   border: 2px solid red;
+   border-radius: 10px;
+   position: relative;
+   left:300px;
+   padding-left: 300px;
+}
+
+ul {
+   margin-top: 0;
+   list-style-position: outside;
+  
+}
+ul li{
+   padding-right: 300px;
+   /* border-bottom: 2px solid white; */
+}
+
+.flexcontainer{
+   height: 146px;
+   width: 100%;
+   border-color: 2px solid brown;
+   background-color:#00FFD1;
+   border-radius: 15px;
+   margin-top: 20px;
+   display: flex;
+   flex-flow:row wrap;
+   align-items: center;
+   position: relative;
+   justify-content: space-evenly;
+
+}
+
+.childs{
+   height:55px;
+   width:350px;
+   border: 2px solid green;
+   background-color:cyan;
+   font-weight: bold;
+   margin: 0px 15px 2px 15px;
+   padding:7px ;
+   border-radius: 5px;
+   
+}
+
+h3{
+   height:40px;
+   width:100%;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-color: red;
+   background-image:linear-gradient(to right,red, yellow,red);
+}
+
+.container2{
+   height:200px;
+   width: 100%;
+   border: 1px solid green;
+   background-image: radial-gradient(blue,green);
+   display: flex;
+   justify-content: space-evenly;
+}  
+
+.card{
+   height:90px;
+   width:200px;
+   line-height: 30px;
+   text-align: center;
+   border:2px solid red;
+   background-color: #FBDF07;
+   border-radius:10px ;
+   position: relative;
+   top:50px;
+}
+
+.grid-container{
+   display:grid;
+   margin-top:35px;
+   width: 100%;
+   height:100%;
+   grid-template-columns:repeat(3,400px) 90px;
+   grid-template-rows: 50px 80px 120px 27px;
+   color: white;
+   grid-gap:15px;
+   font-size: x-large;
+   font-weight: bold;
+}
+
+.grid-item1{
+   grid-column: 1/5;
+   background-color: red;
+   text-align: center;
+   font-size: x-large;
+   font-weight: bold;
+}
+
+.grid-item2{
+    background-color: green;
+}
+
+.grid-item3{
+    background-color: cornflowerblue;
+}
+
+.grid-item4{
+   background-color: magenta;
+}
+
+.grid-item5{
+   background-color: orange;
+   font-size: large;
+   grid-column: 1/4;
+  grid-row: 3/4;
+   
+}
+.grid-item6{
+   background-color:black;
+   grid-column: 4/5;
+   grid-row:2/4 ;
+  font-size: medium;
+  font-family: sans-serif ;
+}
+.grid-item7{
+   background-color:#5FDDE5;
+   grid-column:4/5;
+   grid-column: 1/5;
+  text-align: center;
+  color: black;
+  }
+
+  .b{
+   border-bottom: 0.5px solid white;
+  }
+
+
+
+
+
+
+
+
+
