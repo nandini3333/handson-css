@@ -1,0 +1,187 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image:url(./sahara\ desert.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+nav{
+    word-spacing: 40px;
+    color: white;
+    position: relative;
+    left: 800px;
+    top:20px;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+img{
+    height: 50px;
+    width:50px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    top:10px;
+    left:110px;
+    
+}
+i{
+    font-size: 24px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top:20px;
+    justify-content:space-evenly;
+}
+
+.sahara{
+    margin-top: 110px;
+}
+
+.sah{
+    font-size:5em;
+    font-weight: bold;
+    color: white;
+}
+
+.lorem{
+    color: white;
+    line-height: 25px;   
+    font-size: 1vw;
+}
+
+.explore{
+    height: 30px;
+    width:140px;
+    padding-top:13px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.cards{
+    width: 220px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    font-size:1vw;
+    padding:2px 0 0 15px;
+    line-height: 23px;
+    color: white;
+}
+
+.cards:hover{
+    transform: translateY(-5px);
+}
+
+h4{
+    font-weight: bolder;
+}
+.card1{
+    background-image: url(./western.png);
+    color: black;
+}
+
+.card2{
+    background-image:url(./AI\ Bhagawat.png) ;
+}
+
+.card3{
+    background-image: url(./Pyramid.png);
+}
+
+.card4{
+    background-image: url(./Kalahari.png);   
+} 
+
+.b{
+    font-weight:bolder;
+}
+
+.c{
+    font-size: smaller;
+}
+
+@media screen and (max-width:870px) {
+    body{
+        background-repeat:contain;
+    }
+    nav{
+        word-spacing: 40px;
+        color: white;
+        font-size: small;
+        position: relative;
+        left: 350px;
+        top:10px;
+      
+    }
+
+    img{
+        height: 25px;
+        width: 25px;
+        position: relative;
+        top:4px;
+        left:70px;  
+    }
+
+    .sahara{
+        margin: 0 0 10px 2px;
+
+    }
+
+    .sah{
+        font-size:larger;
+        font-weight: bold;
+    }
+    .container{
+    display: flex;
+    flex-direction: column;
+    margin-left:70px;
+    margin-top: 6px;
+   
+   } 
+
+   .lorem{
+       line-height:15px;
+       font-size: small;
+       margin-top: 0;
+  }
+
+   .explore{
+    height: 20px;
+    width:110px;
+    padding:3px;
+    margin-top: 0;
+
+   }
+   .cards{
+    width: 400px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size:small;
+    padding:2px 0 0 15px;
+    line-height: 20px;
+  
+}
+
+
+}
