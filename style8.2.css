@@ -25,7 +25,7 @@ body{
     right: 0;
     bottom: 0;
     z-index: 1;
-    animation: road 10s linear infinite ;
+    animation: road 5s linear infinite ;
 }
 
 
@@ -60,7 +60,7 @@ body{
     width: 400px;
     position: absolute;
     left:30%;
-    bottom:100px;
+    bottom:99px;
     z-index:2;
 
  }
@@ -90,14 +90,14 @@ body{
 }
 .backwheel{
     position: relative;
-    top:397px;
+    top:388px;
     left:430px;
 }
 
 .frontwheel{
     position: relative;
     left: 599px;
-    top: 397px;
+    top: 388px;
 }
 
 @keyframes wheel{
@@ -134,7 +134,7 @@ body{
     animation: car 1s linear infinite;
     position: relative;
     left:700px;
-    top:206px;
+    top:195px;
 }
 
 h1{
